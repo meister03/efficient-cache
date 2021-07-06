@@ -1,0 +1,28 @@
+  
+{
+    "name": "fast-cache",
+    "version": "1.0.0",
+    "description": "A super effecient Cache Manager, which removes all undefined/null/false keys and re-add's the back, when calling .get",
+    "main": "manager.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meister03/fast-cache.git"
+    },
+    "publishConfig": {
+    "access": "public"
+    },
+    "keywords": [
+        "fast-cache",
+        "effecient-cache",
+        "cache-manager",
+        "less-memory",
+        "node-cache",
+        "easy-caching"
+    ],
+    "author": "meister03",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/meister03/fast-cache/issues"
+    },
+    "homepage": "https://github.com/meister03/fast-cache#readme"
+  }
