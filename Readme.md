@@ -1,5 +1,5 @@
-<p align="center"><a href="https://nodei.co/npm/fast-cache/"><img src="https://nodei.co/npm/fast-cache.png"></a></p>
-<p align="center"><img src="https://img.shields.io/npm/v/fast-cache"> <img src="https://img.shields.io/npm/dm/fast-cache?label=downloads"> <img src="https://img.shields.io/npm/l/fast-cache"> <img src="https://img.shields.io/github/repo-size/meister03/fast-cache">  <a href="https://discord.gg/YTdNBHh"><img src="https://discordapp.com/api/guilds/697129454761410600/widget.png" alt="Discord server"/></a></p>
+<p align="center"><a href="https://nodei.co/npm/efficient-cache/"><img src="https://nodei.co/npm/efficient-cache.png"></a></p>
+<p align="center"><img src="https://img.shields.io/npm/v/efficient-cache"> <img src="https://img.shields.io/npm/dm/efficient-cache?label=downloads"> <img src="https://img.shields.io/npm/l/fast-cache"> <img src="https://img.shields.io/github/repo-size/meister03/efficient-cache">  <a href="https://discord.gg/YTdNBHh"><img src="https://discordapp.com/api/guilds/697129454761410600/widget.png" alt="Discord server"/></a></p>
 
 # Fast-Cache
 A super efficient Cache Manager, which removes all undefined/null/false keys and re-add's the back, when calling .get
@@ -14,7 +14,7 @@ When saving values in maps, you often have a lot of undefined, null keys and emp
 - Remove empty Arrays
 
 ```js
-npm install fast-cache
+npm install efficient-cache
 ```
 
 **If you need help feel free to join our <a href="https://discord.gg/YTdNBHh">discord server</a>. We will provied you all help ☺**
@@ -24,7 +24,7 @@ You have to require the Package and create a new Collection with it. See the exa
 
 ```js
 const dataset = require('./Test.js') //A Dataset is shown below
-const Manager = require('fast-cache');
+const Manager = require('efficient-cache');
 const cache = new Manager({dataset: dataset});
 
 cache.set(`hello`, {food: true, water: null}}})
